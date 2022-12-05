@@ -6,17 +6,17 @@ import User from '../components/user'
 const users = ({ users }) => {
     return (
         <>
-            <h>List of users</h>
+            <h1>List of users</h1>
             {users.map((user) => {
                 return (
-                    <>
-                        <div key={user.id}>
-                            {/* <p>{user.id}{`)`} Name : {user.name} & email is : {user.email}
-                            </p> */}
-                            <User user={user}></User>
-                        </div>
+                    <div key={user.id}>
 
-                    </>
+                        <p>{user.id}{`)`} Name : {user.name} & email is : {user.email}
+                        </p>
+                        {/* <User user={user} key={user.id}></User> */}
+
+
+                    </div>
                 )
             })}
         </>

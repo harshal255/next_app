@@ -24,6 +24,10 @@ export default function Home() {
         <h4>Programetically Routers</h4>
 
         <button onClick={() => router.push('/product')}>Place Order</button>
+        <br />
+        <Link href='/users'>Users</Link>
+        <br />
+        <Link href='/posts'>Posts</Link>
 
       </main>
 
