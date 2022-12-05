@@ -1,4 +1,82 @@
 {
+    "events": [
+        {
+            "id": 1,
+            "title": "Event 1 ",
+            "desc": "Despriction 1",
+            "category": "sports",
+            "date": "April 25"
+        },
+        {
+            "id": 2,
+            "title": "Event 2 ",
+            "desc": "Despriction 2",
+            "category": "technology",
+            "date": "May 25"
+        },
+        {
+            "id": 3,
+            "title": "Event 3 ",
+            "desc": "Despriction 3",
+            "category": "business",
+            "date": "june 25"
+        },
+        {
+            "id": 4,
+            "title": "Event 4 ",
+            "desc": "Despriction 4",
+            "category": "education",
+            "date": "july 25"
+        },
+        {
+            "id": 5,
+            "title": "Event 5 ",
+            "desc": "Despriction 5",
+            "category": "feshion",
+            "date": "Augest 25"
+        },
+        {
+            "id": 6,
+            "title": "Event 6 ",
+            "desc": "Despriction 6",
+            "category": "industry",
+            "date": "September 25"
+        },
+        {
+            "id": 7,
+            "title": "Event 7 ",
+            "desc": "Despriction 7",
+            "category": "god",
+            "date": "October 25"
+        },
+        {
+            "id": 8,
+            "title": "Event 8 ",
+            "desc": "Despriction 8",
+            "category": "programming",
+            "date": "November 25"
+        },
+        {
+            "id": 9,
+            "title": "Event 9 ",
+            "desc": "Despriction 9",
+            "category": "festival",
+            "date": "December 25"
+        },
+        {
+            "id": 10,
+            "title": "Event 10 ",
+            "desc": "Despriction 10",
+            "category": "writer",
+            "date": "January 25"
+        }
+    ],
+    "dashboard": {
+        "posts": 5,
+        "likes": 1500,
+        "followes": 650,
+        "following": 640
+    },
     "products": [
         {
             "id": 1,
@@ -35,6 +113,44 @@
             "title": "Product 6",
             "price": 5000,
             "desc": "Despriction 6"
+        }
+    ],
+    "news": [
+        {
+            "id": 1,
+            "title": "News 1",
+            "price": 1000,
+            "category": "category1"
+        },
+        {
+            "id": 2,
+            "title": "News 2",
+            "price": 2000,
+            "category": "category1"
+        },
+        {
+            "id": 3,
+            "title": "News 3",
+            "price": 3000,
+            "category": "category2"
+        },
+        {
+            "id": 4,
+            "title": "News 4",
+            "price": 4000,
+            "category": "category3"
+        },
+        {
+            "id": 5,
+            "title": "Product 5",
+            "price": 5000,
+            "category": "category2"
+        },
+        {
+            "id": 6,
+            "title": "Product 6",
+            "price": 5000,
+            "category": "category2"
         }
     ]
 }

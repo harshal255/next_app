@@ -26,6 +26,7 @@ export default index
 
 
 export async function getStaticProps() {
+    console.log("Generating");
 
     const response = await fetch('https://jsonplaceholder.typicode.com/posts')
     const data = await response.json();
@@ -35,7 +36,8 @@ export async function getStaticProps() {
         props: {
             posts: data
             // posts: data.slice(0, 15)
-        }
+        },
+        revalidate: 10,
     }
 
 }
